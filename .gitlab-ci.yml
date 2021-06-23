@@ -1,0 +1,23 @@
+image: gitlab/dind
+
+services:
+    - docker:dind
+
+pages:
+    stage: deploy
+    cache:
+        paths:
+            - composer
+    script:
+        - if [ ! -d composer ]; then mkdir composer; fi
+        - echo "$AUTH_JSON" > composer/auth.json
+        - docker run --rm -i -v `pwd`:/build -v `pwd`/composer:/composer composer/satis
+        - mv output public
+        - rm -f composer/auth.json
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
+    except:
+        - schedules

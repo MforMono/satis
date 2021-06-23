@@ -1,0 +1,7 @@
+{
+    "name": "Mono repositories",
+    "homepage": "https://satis.mono.vanoix.com",
+    "repositories": [
+    ],
+    "require-all": true
+}
