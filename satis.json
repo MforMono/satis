@@ -1,20 +1,20 @@
 {
     "name": "mono/repositories",
-    "homepage": "https://satis.mono.vanoix.com",
+    "homepage": "https://satis.mformono.com",
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.com:vanoix/projects/mono/sylius/syliusmarketplaceplugin.git"
+            "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.com:vanoix/projects/mono/sylius/syliusmarketplaceadminplugin.git"
+            "url": "git@github.com:MforMono/SyliusMarketplaceAdminPlugin.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.com:vanoix/projects/mono/sylius/marketplacetheme.git"
+            "url": "git@github.com:MforMono/MarketplaceTheme.git"
         }
-    
+
     ],
     "require-all": true
 }
