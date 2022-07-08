@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "mono/sylius-marketplace-theme": [
+            {
+                "name": "mono/sylius-marketplace-theme",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:MforMono/MarketplaceTheme.git",
+                    "reference": "6b94d55b13702e919db8c59a3a57aa4a49bc8aa9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/MforMono/MarketplaceTheme/zipball/6b94d55b13702e919db8c59a3a57aa4a49bc8aa9",
+                    "reference": "6b94d55b13702e919db8c59a3a57aa4a49bc8aa9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.0",
+                    "sylius/shop-bundle": "^1.11"
+                },
+                "time": "2022-05-17T15:10:51+00:00",
+                "default-branch": true,
+                "type": "sylius-theme",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.0.x-dev"
+                    },
+                    "sylius-theme": {
+                        "title": "Marketplace Theme"
+                    }
+                },
+                "license": [
+                    "EUPL-1.2"
+                ],
+                "authors": [
+                    {
+                        "name": "Alexandre Balmes",
+                        "email": "sylius@alexandre.balmes.co",
+                        "homepage": "https://alexandre.balmes.co"
+                    }
+                ],
+                "description": "Base theme for marketplace on Sylius",
+                "keywords": [
+                    "sylius",
+                    "sylius-theme"
+                ],
+                "support": {
+                    "source": "https://github.com/MforMono/MarketplaceTheme/tree/main",
+                    "issues": "https://github.com/MforMono/MarketplaceTheme/issues"
+                }
+            }
+        ]
+    }
+}

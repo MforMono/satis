@@ -1,0 +1,14 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$65f2d46461e0bc5553012545dfd35d7c17f81f1b.json": {
+            "sha1": "65f2d46461e0bc5553012545dfd35d7c17f81f1b"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "mono/marketplace-admin-plugin",
+        "mono/sylius-marketplace-plugin",
+        "mono/sylius-marketplace-theme"
+    ]
+}
