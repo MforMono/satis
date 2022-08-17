@@ -1,6 +1,6 @@
 {
     "name": "mono/repositories",
-    "homepage": "https://satis.mformono.com",
+    "homepage": "https://mformono.github.io/satis/",
     "repositories": [
         {
             "type": "vcs",
