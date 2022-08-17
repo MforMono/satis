@@ -5,7 +5,7 @@
             "sha1": "fd519a93e31de86d038488237c04604c0f1efb46"
         }
     },
-    "metadata-url": "/p2/%package%.json",
+    "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "mono/marketplace-admin-plugin",
         "mono/sylius-marketplace-plugin",
