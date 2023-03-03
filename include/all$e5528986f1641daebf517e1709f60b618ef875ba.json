@@ -362,6 +362,116 @@
                     "issues": "https://github.com/MforMono/SyliusMarketplacePlugin/issues"
                 }
             },
+            "dev-feature/inner-order": {
+                "name": "mono/sylius-marketplace-plugin",
+                "version": "dev-feature/inner-order",
+                "version_normalized": "dev-feature/inner-order",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
+                    "reference": "1da6d49f93184305c7b552d59f675da0db47d7bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/1da6d49f93184305c7b552d59f675da0db47d7bf",
+                    "reference": "1da6d49f93184305c7b552d59f675da0db47d7bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "mono/sylius-marketplace-theme": "^1.0.x-dev",
+                    "php": "^8.0",
+                    "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
+                    "sylius/sylius": "^1.12",
+                    "symfony/webpack-encore-bundle": "^1.15",
+                    "zenstruck/foundry": "^1.29"
+                },
+                "require-dev": {
+                    "behat/behat": "^3.6.1",
+                    "behat/mink-selenium2-driver": "^1.4",
+                    "dmore/behat-chrome-extension": "^1.3",
+                    "dmore/chrome-mink-driver": "^2.7",
+                    "doctrine/doctrine-fixtures-bundle": "^3.4",
+                    "friends-of-behat/mink": "^1.8",
+                    "friends-of-behat/mink-browserkit-driver": "^1.4",
+                    "friends-of-behat/mink-debug-extension": "^2.0.0",
+                    "friends-of-behat/mink-extension": "^2.4",
+                    "friends-of-behat/page-object-extension": "^0.3",
+                    "friends-of-behat/suite-settings-extension": "^1.0",
+                    "friends-of-behat/symfony-extension": "^2.1",
+                    "friends-of-behat/variadic-extension": "^1.3",
+                    "phpspec/phpspec": "^7.2",
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^1.8.1",
+                    "phpstan/phpstan-doctrine": "1.3.16",
+                    "phpstan/phpstan-strict-rules": "^1.3.0",
+                    "phpstan/phpstan-webmozart-assert": "^1.2.0",
+                    "phpunit/phpunit": "^9.5",
+                    "polishsymfonycommunity/symfony-mocker-container": "^1.0",
+                    "sylius-labs/coding-standard": "^4.2",
+                    "symfony/browser-kit": "^5.4 || ^6.0",
+                    "symfony/debug-bundle": "^5.4 || ^6.0",
+                    "symfony/dotenv": "^5.4 || ^6.0",
+                    "symfony/intl": "^5.4 || ^6.0",
+                    "symfony/web-profiler-bundle": "^5.4 || ^6.0",
+                    "thecodingmachine/phpstan-safe-rule": "^1.2.0",
+                    "vimeo/psalm": "4.27.0"
+                },
+                "time": "2023-03-03T14:33:51+00:00",
+                "type": "sylius-plugin",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Mono\\SyliusMarketplacePlugin\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Mono\\Tests\\SyliusMarketplacePlugin\\Application\\": "tests/Application/src/",
+                        "Mono\\Tests\\SyliusMarketplacePlugin\\Behat\\": "tests/Behat/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "EUPL-1.2"
+                ],
+                "authors": [
+                    {
+                        "name": "Alexandre Balmes",
+                        "email": "sylius@alexandre.balmes.co",
+                        "homepage": "https://alexandre.balmes.co"
+                    }
+                ],
+                "description": "Transform your shop to a marketplace",
+                "keywords": [
+                    "sylius",
+                    "sylius-plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/MforMono/SyliusMarketplacePlugin/tree/feature/inner-order",
+                    "issues": "https://github.com/MforMono/SyliusMarketplacePlugin/issues"
+                }
+            },
             "dev-fix/plugins-test-app": {
                 "name": "mono/sylius-marketplace-plugin",
                 "version": "dev-fix/plugins-test-app",
