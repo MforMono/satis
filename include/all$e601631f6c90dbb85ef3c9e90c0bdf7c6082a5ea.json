@@ -369,12 +369,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "0e9d60497ded822eb353124221ce4525f7b7b92f"
+                    "reference": "f54fdaeac49f09266144dbd0c9eb0657e4d1a118"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/0e9d60497ded822eb353124221ce4525f7b7b92f",
-                    "reference": "0e9d60497ded822eb353124221ce4525f7b7b92f",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/f54fdaeac49f09266144dbd0c9eb0657e4d1a118",
+                    "reference": "f54fdaeac49f09266144dbd0c9eb0657e4d1a118",
                     "shasum": ""
                 },
                 "require": {
@@ -408,8 +408,8 @@
                     "phpstan/phpstan-webmozart-assert": "^1.2.0",
                     "phpunit/phpunit": "^9.5",
                     "polishsymfonycommunity/symfony-mocker-container": "^1.0",
+                    "rector/rector": "^0.15",
                     "sylius-labs/coding-standard": "^4.2",
-                    "sylius/sylius-rector": "0.11.x-dev",
                     "symfony/browser-kit": "^5.4 || ^6.0",
                     "symfony/debug-bundle": "^5.4 || ^6.0",
                     "symfony/dotenv": "^5.4 || ^6.0",
@@ -420,7 +420,7 @@
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
                     "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-04-02T22:48:41+00:00",
+                "time": "2023-04-03T20:23:44+00:00",
                 "type": "sylius-plugin",
                 "extra": {
                     "branch-alias": {
@@ -437,8 +437,7 @@
                         "tests/Application/Kernel.php"
                     ],
                     "psr-4": {
-                        "Mono\\Tests\\SyliusMarketplacePlugin\\Application\\": "tests/Application/",
-                        "Mono\\Tests\\SyliusMarketplacePlugin\\Behat\\": "tests/Behat/"
+                        "Mono\\Tests\\SyliusMarketplacePlugin\\": "tests/"
                     }
                 },
                 "scripts": {
