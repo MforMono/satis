@@ -485,54 +485,61 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "ac7ce59ac3a17a1d63059eeb8cda98855d6c025a"
+                    "reference": "296d60270d6ca36bcb5e80f51ea207929e88cf8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/ac7ce59ac3a17a1d63059eeb8cda98855d6c025a",
-                    "reference": "ac7ce59ac3a17a1d63059eeb8cda98855d6c025a",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/296d60270d6ca36bcb5e80f51ea207929e88cf8f",
+                    "reference": "296d60270d6ca36bcb5e80f51ea207929e88cf8f",
                     "shasum": ""
                 },
                 "require": {
                     "mono/sylius-marketplace-theme": "^1.0.x-dev",
-                    "php": "^8.0",
+                    "php": "^8.2",
                     "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
                     "sylius/sylius": "^1.12",
                     "symfony/webpack-encore-bundle": "^1.15",
                     "zenstruck/foundry": "^1.29"
                 },
                 "require-dev": {
-                    "behat/behat": "^3.6.1",
+                    "behat/behat": "^3.7",
                     "behat/mink-selenium2-driver": "^1.4",
                     "dmore/behat-chrome-extension": "^1.3",
                     "dmore/chrome-mink-driver": "^2.7",
                     "doctrine/doctrine-fixtures-bundle": "^3.4",
                     "friends-of-behat/mink": "^1.8",
                     "friends-of-behat/mink-browserkit-driver": "^1.4",
-                    "friends-of-behat/mink-debug-extension": "^2.0.0",
+                    "friends-of-behat/mink-debug-extension": "^2.0",
                     "friends-of-behat/mink-extension": "^2.4",
                     "friends-of-behat/page-object-extension": "^0.3",
                     "friends-of-behat/suite-settings-extension": "^1.0",
                     "friends-of-behat/symfony-extension": "^2.1",
                     "friends-of-behat/variadic-extension": "^1.3",
+                    "hautelook/alice-bundle": "^2.10",
+                    "justinrainbow/json-schema": "^5.2",
+                    "lchrusciel/api-test-case": "^5.0",
                     "phpspec/phpspec": "^7.2",
                     "phpstan/extension-installer": "^1.0",
-                    "phpstan/phpstan": "^1.8.1",
-                    "phpstan/phpstan-doctrine": "1.3.16",
+                    "phpstan/phpstan": "^1.8.4",
+                    "phpstan/phpstan-doctrine": "1.3.37",
                     "phpstan/phpstan-strict-rules": "^1.3.0",
                     "phpstan/phpstan-webmozart-assert": "^1.2.0",
                     "phpunit/phpunit": "^9.5",
                     "polishsymfonycommunity/symfony-mocker-container": "^1.0",
+                    "rector/rector": "^0.15",
+                    "roave/security-advisories": "dev-latest",
                     "sylius-labs/coding-standard": "^4.2",
                     "symfony/browser-kit": "^5.4 || ^6.0",
                     "symfony/debug-bundle": "^5.4 || ^6.0",
                     "symfony/dotenv": "^5.4 || ^6.0",
+                    "symfony/flex": "^2.2.2",
+                    "symfony/http-client": "^5.4 || ^6.0",
                     "symfony/intl": "^5.4 || ^6.0",
                     "symfony/web-profiler-bundle": "^5.4 || ^6.0",
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
-                    "vimeo/psalm": "4.27.0"
+                    "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-03-27T14:08:54+00:00",
+                "time": "2023-04-04T19:17:05+00:00",
                 "type": "sylius-plugin",
                 "extra": {
                     "branch-alias": {
@@ -549,8 +556,8 @@
                         "tests/Application/Kernel.php"
                     ],
                     "psr-4": {
-                        "Mono\\Tests\\SyliusMarketplacePlugin\\Application\\": "tests/Application/src/",
-                        "Mono\\Tests\\SyliusMarketplacePlugin\\Behat\\": "tests/Behat/"
+                        "Mono\\SyliusMarketplacePlugin\\Tests\\": "tests/",
+                        "Mono\\SyliusMarketplacePlugin\\Tests\\Application\\": "tests/Application/src/"
                     }
                 },
                 "scripts": {
@@ -565,7 +572,8 @@
                     ],
                     "auto-scripts": {
                         "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
                     }
                 },
                 "license": [
