@@ -120,12 +120,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "a1d3ff3e38718f05da5ebcd2ad593aa702b2c8ff"
+                    "reference": "ece20e11247a35a4e62aa387ea430df3e6a0f46f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/a1d3ff3e38718f05da5ebcd2ad593aa702b2c8ff",
-                    "reference": "a1d3ff3e38718f05da5ebcd2ad593aa702b2c8ff",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/ece20e11247a35a4e62aa387ea430df3e6a0f46f",
+                    "reference": "ece20e11247a35a4e62aa387ea430df3e6a0f46f",
                     "shasum": ""
                 },
                 "require": {
@@ -160,6 +160,7 @@
                     "phpunit/phpunit": "^9.5",
                     "polishsymfonycommunity/symfony-mocker-container": "^1.0",
                     "rector/rector": "^0.15",
+                    "roave/security-advisories": "dev-latest",
                     "sylius-labs/coding-standard": "^4.2",
                     "symfony/browser-kit": "^5.4 || ^6.0",
                     "symfony/debug-bundle": "^5.4 || ^6.0",
@@ -171,7 +172,7 @@
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
                     "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-04-04T13:55:42+00:00",
+                "time": "2023-04-04T16:14:42+00:00",
                 "type": "sylius-plugin",
                 "extra": {
                     "branch-alias": {
