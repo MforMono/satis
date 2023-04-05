@@ -236,12 +236,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "296d60270d6ca36bcb5e80f51ea207929e88cf8f"
+                    "reference": "fe26b324b7f13bf5900e774d9feac307bf704567"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/296d60270d6ca36bcb5e80f51ea207929e88cf8f",
-                    "reference": "296d60270d6ca36bcb5e80f51ea207929e88cf8f",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/fe26b324b7f13bf5900e774d9feac307bf704567",
+                    "reference": "fe26b324b7f13bf5900e774d9feac307bf704567",
                     "shasum": ""
                 },
                 "require": {
@@ -290,7 +290,7 @@
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
                     "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-04-04T19:17:05+00:00",
+                "time": "2023-04-04T23:58:00+00:00",
                 "type": "sylius-plugin",
                 "extra": {
                     "branch-alias": {
