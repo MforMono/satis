@@ -236,12 +236,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "9aad66af05275620b46eca90b4e9e8ab21e00baf"
+                    "reference": "a60a74266ac7638471f1252450cdb26362470d62"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/9aad66af05275620b46eca90b4e9e8ab21e00baf",
-                    "reference": "9aad66af05275620b46eca90b4e9e8ab21e00baf",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/a60a74266ac7638471f1252450cdb26362470d62",
+                    "reference": "a60a74266ac7638471f1252450cdb26362470d62",
                     "shasum": ""
                 },
                 "require": {
@@ -255,6 +255,7 @@
                 "require-dev": {
                     "behat/behat": "^3.7",
                     "behat/mink-selenium2-driver": "^1.4",
+                    "dama/doctrine-test-bundle": "^7.2",
                     "dmore/behat-chrome-extension": "^1.3",
                     "dmore/chrome-mink-driver": "^2.7",
                     "doctrine/doctrine-fixtures-bundle": "^3.4",
@@ -290,7 +291,7 @@
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
                     "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-04-18T19:23:30+00:00",
+                "time": "2023-04-18T22:05:02+00:00",
                 "type": "sylius-plugin",
                 "extra": {
                     "branch-alias": {
