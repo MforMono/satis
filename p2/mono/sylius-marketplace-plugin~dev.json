@@ -575,12 +575,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/SyliusMarketplacePlugin.git",
-                    "reference": "d86093e6c8ea87a1b262151eaadfe09fe5ca57fe"
+                    "reference": "e53d1fbc03bcec91b40e22e5ac26cf547f62d6bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/d86093e6c8ea87a1b262151eaadfe09fe5ca57fe",
-                    "reference": "d86093e6c8ea87a1b262151eaadfe09fe5ca57fe",
+                    "url": "https://api.github.com/repos/MforMono/SyliusMarketplacePlugin/zipball/e53d1fbc03bcec91b40e22e5ac26cf547f62d6bd",
+                    "reference": "e53d1fbc03bcec91b40e22e5ac26cf547f62d6bd",
                     "shasum": ""
                 },
                 "require": {
@@ -588,13 +588,16 @@
                     "php": "^8.2",
                     "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
                     "sylius/sylius": "^1.12",
-                    "symfony/webpack-encore-bundle": "^1.15"
+                    "symfony/webpack-encore-bundle": "^1.15",
+                    "zenstruck/foundry": "^1.29"
                 },
                 "require-dev": {
                     "behat/behat": "^3.7",
                     "behat/mink-selenium2-driver": "^1.4",
+                    "dama/doctrine-test-bundle": "^7.2",
                     "dmore/behat-chrome-extension": "^1.3",
                     "dmore/chrome-mink-driver": "^2.7",
+                    "doctrine/doctrine-fixtures-bundle": "^3.4",
                     "friends-of-behat/mink": "^1.8",
                     "friends-of-behat/mink-browserkit-driver": "^1.4",
                     "friends-of-behat/mink-debug-extension": "^2.0",
@@ -614,6 +617,7 @@
                     "phpstan/phpstan-webmozart-assert": "^1.2.0",
                     "phpunit/phpunit": "^9.5",
                     "polishsymfonycommunity/symfony-mocker-container": "^1.0",
+                    "psalm/plugin-symfony": "^5.0",
                     "rector/rector": "^0.15",
                     "roave/security-advisories": "dev-latest",
                     "sylius-labs/coding-standard": "^4.2",
@@ -627,7 +631,7 @@
                     "thecodingmachine/phpstan-safe-rule": "^1.2.0",
                     "vimeo/psalm": "^5.8.0"
                 },
-                "time": "2023-04-04T16:20:02+00:00",
+                "time": "2023-05-30T22:19:16+00:00",
                 "default-branch": true,
                 "type": "sylius-plugin",
                 "extra": {
