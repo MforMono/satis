@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:MforMono/MarketplaceTheme.git",
-                    "reference": "bf94fd5cdb8fe5a925b343b970e1400c6e90ca06"
+                    "reference": "07a49b7da96f7c8d4c2e7bcdefe05e53b3911fc8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/MarketplaceTheme/zipball/bf94fd5cdb8fe5a925b343b970e1400c6e90ca06",
-                    "reference": "bf94fd5cdb8fe5a925b343b970e1400c6e90ca06",
+                    "url": "https://api.github.com/repos/MforMono/MarketplaceTheme/zipball/07a49b7da96f7c8d4c2e7bcdefe05e53b3911fc8",
+                    "reference": "07a49b7da96f7c8d4c2e7bcdefe05e53b3911fc8",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.0",
                     "sylius/shop-bundle": "^1.11"
                 },
-                "time": "2023-04-03T21:09:27+00:00",
+                "time": "2023-08-02T23:02:03+00:00",
                 "default-branch": true,
                 "type": "sylius-theme",
                 "extra": {
