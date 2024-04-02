@@ -13,6 +13,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:MforMono/MarketplaceTheme.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:MforMono/MonoMakerBundle.git"
         }
     ],
     "require-all": true
