@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9d3a5f33212185573cb9630c0884b905b1d5cbbf.json": {
-            "sha1": "9d3a5f33212185573cb9630c0884b905b1d5cbbf"
+        "include/all$cef8af26f8b382eba6c2b35ad9e88366e973258f.json": {
+            "sha1": "cef8af26f8b382eba6c2b35ad9e88366e973258f"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
+        "mono/maker-bundle",
         "mono/marketplace-admin-plugin",
         "mono/sylius-marketplace-plugin",
         "mono/sylius-marketplace-theme"
