@@ -25,6 +25,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:MforMono/phpstan-pack.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:MforMono/qa-pack.git"
         }
     ],
     "require-all": true
