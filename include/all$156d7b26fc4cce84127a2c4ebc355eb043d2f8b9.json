@@ -36,6 +36,41 @@
                 }
             }
         },
+        "mformono/phpstan-pack": {
+            "dev-main": {
+                "name": "mformono/phpstan-pack",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:MforMono/phpstan-pack.git",
+                    "reference": "df1daaceb7d354f40a140a016c2b18a35563dc5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/MforMono/phpstan-pack/zipball/df1daaceb7d354f40a140a016c2b18a35563dc5c",
+                    "reference": "df1daaceb7d354f40a140a016c2b18a35563dc5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "phpstan/extension-installer": "*",
+                    "phpstan/phpstan-doctrine": "*",
+                    "phpstan/phpstan-symfony": "^2.0",
+                    "phpstan/phpstan-webmozart-assert": "*"
+                },
+                "time": "2025-01-09T15:50:22+00:00",
+                "default-branch": true,
+                "type": "symfony-pack",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A pack for phpstan with extensions",
+                "support": {
+                    "source": "https://github.com/MforMono/phpstan-pack/tree/main",
+                    "issues": "https://github.com/MforMono/phpstan-pack/issues"
+                }
+            }
+        },
         "mono/maker-bundle": {
             "dev-main": {
                 "name": "mono/maker-bundle",
