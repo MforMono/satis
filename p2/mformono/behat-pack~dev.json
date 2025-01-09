@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/MforMono/behat-pack.git",
-                    "reference": "56c87390dd7129b4cff3c290ddc634706925407b"
+                    "reference": "20ff0a5f54ba0d42c5cb8d70dc3c2f7976b9d58d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/MforMono/behat-pack/zipball/56c87390dd7129b4cff3c290ddc634706925407b",
-                    "reference": "56c87390dd7129b4cff3c290ddc634706925407b",
+                    "url": "https://api.github.com/repos/MforMono/behat-pack/zipball/20ff0a5f54ba0d42c5cb8d70dc3c2f7976b9d58d",
+                    "reference": "20ff0a5f54ba0d42c5cb8d70dc3c2f7976b9d58d",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "friends-of-behat/variadic-extension": "*",
                     "robertfausk/behat-panther-extension": "*"
                 },
-                "time": "2025-01-09T10:25:45+00:00",
+                "time": "2025-01-09T15:13:13+00:00",
                 "default-branch": true,
                 "type": "symfony-pack",
                 "license": [
