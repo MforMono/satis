@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$cef8af26f8b382eba6c2b35ad9e88366e973258f.json": {
-            "sha1": "cef8af26f8b382eba6c2b35ad9e88366e973258f"
+        "include/all$77f8edb894036fd3704c03b047311fcb49ddf54c.json": {
+            "sha1": "77f8edb894036fd3704c03b047311fcb49ddf54c"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
+        "mformono/behat-pack",
         "mono/maker-bundle",
         "mono/marketplace-admin-plugin",
         "mono/sylius-marketplace-plugin",

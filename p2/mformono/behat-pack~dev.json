@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "mformono/behat-pack": [
+            {
+                "name": "mformono/behat-pack",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/MforMono/behat-pack.git",
+                    "reference": "56c87390dd7129b4cff3c290ddc634706925407b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/MforMono/behat-pack/zipball/56c87390dd7129b4cff3c290ddc634706925407b",
+                    "reference": "56c87390dd7129b4cff3c290ddc634706925407b",
+                    "shasum": ""
+                },
+                "require": {
+                    "friends-of-behat/mink-debug-extension": "*",
+                    "friends-of-behat/mink-extension": "*",
+                    "friends-of-behat/symfony-extension": "^2.6",
+                    "friends-of-behat/variadic-extension": "*",
+                    "robertfausk/behat-panther-extension": "*"
+                },
+                "time": "2025-01-09T10:25:45+00:00",
+                "default-branch": true,
+                "type": "symfony-pack",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A pack for behat with extensions",
+                "support": {
+                    "source": "https://github.com/MforMono/behat-pack/tree/main",
+                    "issues": "https://github.com/MforMono/behat-pack/issues"
+                }
+            }
+        ]
+    }
+}
