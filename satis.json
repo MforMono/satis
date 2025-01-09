@@ -21,6 +21,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:MforMono/behat-pack.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:MforMono/phpstan-pack.git"
         }
     ],
     "require-all": true
