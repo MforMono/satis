@@ -17,6 +17,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:MforMono/MonoMakerBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:MforMono/behat-pack.git"
         }
     ],
     "require-all": true
