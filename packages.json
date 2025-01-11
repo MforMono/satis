@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$156d7b26fc4cce84127a2c4ebc355eb043d2f8b9.json": {
-            "sha1": "156d7b26fc4cce84127a2c4ebc355eb043d2f8b9"
+        "include/all$7f387c3b7c71e26a8ef04a6718dd7646e53d16e2.json": {
+            "sha1": "7f387c3b7c71e26a8ef04a6718dd7646e53d16e2"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "mformono/behat-pack",
         "mformono/phpstan-pack",
+        "mformono/qa-pack",
         "mono/maker-bundle",
         "mono/marketplace-admin-plugin",
         "mono/sylius-marketplace-plugin",

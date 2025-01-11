@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "mformono/qa-pack": [
+            {
+                "name": "mformono/qa-pack",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:MforMono/qa-pack.git",
+                    "reference": "abfc7489f077b37806b99dedff4b0d53e3b06222"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/MforMono/qa-pack/zipball/abfc7489f077b37806b99dedff4b0d53e3b06222",
+                    "reference": "abfc7489f077b37806b99dedff4b0d53e3b06222",
+                    "shasum": ""
+                },
+                "require": {
+                    "mformono/phpstan-pack": "*",
+                    "rector/rector": "*",
+                    "symplify/easy-coding-standard": "*",
+                    "vincentlanglet/twig-cs-fixer": "*"
+                },
+                "time": "2025-01-09T16:21:07+00:00",
+                "default-branch": true,
+                "type": "symfony-pack",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A pack for QA with tools",
+                "support": {
+                    "source": "https://github.com/MforMono/qa-pack/tree/main",
+                    "issues": "https://github.com/MforMono/qa-pack/issues"
+                }
+            }
+        ]
+    }
+}
